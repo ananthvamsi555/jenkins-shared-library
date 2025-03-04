@@ -4,7 +4,7 @@ def call(String goals = 'clean install', String pomFile = 'pom.xml') {
         echo "🚀 Starting Maven Build: Goals - ${goals}, POM - ${pomFile}"
         
         try {
-            sh "mvn -f ${pomFile} ${goals}"
+            bat "mvn -f ${pomFile} ${goals}"
             echo "✅ Maven Build Successful"
         } catch (Exception e) {
             echo "❌ Maven Build Failed: ${e.message}"
