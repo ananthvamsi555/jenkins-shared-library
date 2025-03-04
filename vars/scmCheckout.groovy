@@ -9,4 +9,6 @@ def call(String repoUrl, String branch) {
             url: repoUrl,
         ]]
     ])
+    // Print checkout complete message
+    echo "✅ SCM Checkout Completed: Repository - ${repoUrl}, Branch - ${branch}"
 }
