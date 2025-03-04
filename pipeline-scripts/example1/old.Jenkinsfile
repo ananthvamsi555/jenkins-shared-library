@@ -1,7 +1,7 @@
 node {
     stage("Hello World") {
         script {
-            sh """
+            bat """
                 echo Hi Alice
             """
         }
