@@ -1,0 +1,6 @@
+@Library('jenkins-shared-library') _
+node {
+    stage('Checkout Code') {
+        checkout scm
+    }
+}
