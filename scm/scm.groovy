@@ -11,7 +11,7 @@ pipeline {
                         extensions: [],
                         submoduleCfg: [],
                         userRemoteConfigs: [[
-                            url: '$URL',  // Replace with your repo URL
+                            url: 'https://github.com/ananthvamsi555/jenkins-shared-library.git',  // Replace with your repo URL
                         ]]
                     ])
                 }
