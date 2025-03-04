@@ -1,7 +1,6 @@
 @Library('jenkins-shared-library') _
 node {
     stage('Checkout Code') {
-        URL = 'https://github.com/ananthvamsi555/jenkins-shared-library.git'  
         checkout scm
     }
 }
