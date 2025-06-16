@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 script {
-                    scmCheckout(REPO_URL, BRANCH_NAME)
+                    clone(REPO_URL, BRANCH_NAME)
                 }
             }
         }
