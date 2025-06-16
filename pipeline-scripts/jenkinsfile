@@ -2,8 +2,8 @@
 pipeline {
     agent any
     environment {
-        repoUrl = 'https://github.com/ananthvamsi555/jenkins-shared-library.git'
-        branch = 'main'
+        repoUrl = "https://github.com/ananthvamsi555/jenkins-shared-library.git"
+        branch = "main"
     }
     stages {
         stage('Checkout Code') {
